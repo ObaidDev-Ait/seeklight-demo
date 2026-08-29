@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2c3770" />
+      <stop offset="0.6" stop-color="#1e2652" />
+      <stop offset="1" stop-color="#161c3d" />
+    </linearGradient>
+    <linearGradient id="glowYellow" x1="200" y1="100" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7c948" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#f7c948" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="violetAcc" x1="100" y1="200" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6f63d9" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#6f63d9" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#heroGrad)" />
+  <circle cx="450" cy="180" r="160" fill="url(#glowYellow)" />
+  <circle cx="250" cy="300" r="140" fill="url(#violetAcc)" />
+  <g opacity="0.25" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 6">
+    <circle cx="380" cy="200" r="90" />
+    <circle cx="380" cy="200" r="150" />
+    <circle cx="380" cy="200" r="210" />
+  </g>
+  <path d="M380 120 L395 185 L460 200 L395 215 L380 280 L365 215 L300 200 L365 185 Z" fill="#f7c948" opacity="0.85" />
+  <circle cx="460" cy="120" r="8" fill="#45b58b" />
+  <circle cx="280" cy="260" r="6" fill="#f7c948" />
+  <circle cx="480" cy="280" r="12" fill="#6f63d9" opacity="0.8" />
+</svg>

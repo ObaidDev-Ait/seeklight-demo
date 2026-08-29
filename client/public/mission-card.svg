@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" fill="none">
+  <defs>
+    <linearGradient id="missionGrad" x1="0" y1="0" x2="300" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3d5a80" />
+      <stop offset="1" stop-color="#293241" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="240" fill="url(#missionGrad)" />
+  <circle cx="220" cy="80" r="70" fill="#45b58b" opacity="0.25" />
+  <path d="M150 160 L180 110 L210 160 Z" fill="#f7c948" opacity="0.3" />
+  <path d="M190 160 L220 120 L250 160 Z" fill="#6f63d9" opacity="0.3" />
+  <circle cx="100" cy="90" r="14" fill="#f7c948" opacity="0.8" />
+  <path d="M60 170 C100 130 180 140 240 100" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 4" opacity="0.4" />
+</svg>
